@@ -1,0 +1,44 @@
+   MERGE CONFLICT DETAILS
+
+
+   1) Firstly I created a text file named git_commands in main branch and edited it using vim editor from main branch itself.
+
+   2) Added the file using "git add ." command and Commited the changes from the main branch.
+
+   3) Created a new branch named osoc_task using command git branch <branch_name>
+
+   4) Switched to the osoc_task branch and opened the git_commands text file and added 2 git commands.
+
+   5) added the file using " git add . " command. 
+   
+   6) Commited the changes from osoc_task branch itself.
+
+   7) Switched to the main branch.
+
+   8) Tried merging osoc_task with the main branch.
+
+   9) Merging Conflicts arised in the git_commands file because it was being edited by both the branches i.e main as well as osoc_task 
+      so the git had a confusion about changes should be consideredand and thus merging failed.
+
+
+   RESOLVING MERGING CONFLICTS
+
+   1) Opened the git_commands text file using vim editor.
+
+   2) Some lines were higlighted by the git that highlighted lines indicated the conflict region.
+
+   3) This conflict region is nothing but the part where we edited from osoc_task branch.
+
+   4) Removed those higlighted conflict lines.
+
+   5) This ensured git that changes made from osoc_task branch was also to be considered.
+
+   6) Now, closed the file.
+
+   7) Wrote command "git status" to check whether merging conflict was resolved or not.
+
+   8) Since it was resolved, i merged the osoc_task branch with main branch.
+
+
+
+

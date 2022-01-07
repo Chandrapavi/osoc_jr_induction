@@ -1,0 +1,54 @@
+commit 7a154d103e23d91cc04570bc4dd0fab22d40d1a5
+Merge: 64fcca6 14c90f8
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 17:14:52 2022 +0530
+
+    Merging conflicts resolved
+
+commit 14c90f86fecb7b607f2f0100e0baaab5aaba039e
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 17:09:51 2022 +0530
+
+    Last git command added from osoc_task branch
+
+commit d8afbaf7a14523c135e1552d99f776246ebb969e
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 16:54:40 2022 +0530
+
+    8th git command added from osoc_task branch
+
+commit 64fcca6d424d0e2b7207112b71a05555b3cd9c6c
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 16:50:57 2022 +0530
+
+    8th git command addes
+
+commit dd4132ddb4c4458c839769752be45c97c5fdf8bb
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 16:44:50 2022 +0530
+
+    7 Git Commands Description added
+
+commit 0a48c0ba4da587bd1b8c6319ce8bbf5b44336e3a
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 15:08:15 2022 +0530
+
+    commit2
+
+commit 95852dde72614292f727ceba88c4866e72c030d7
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 15:04:42 2022 +0530
+
+    commit1
+
+commit 35cefad558a479c6b4f896d66798d553d6185583
+Author: Chandrapavi <bavinadar9@gmail.com>
+Date:   Fri Jan 7 14:40:33 2022 +0530
+
+    commit1
+
+commit 84d38b4625e3c648eeaf1bbdc9fd542fa954fdb0
+Author: SHANOOR AHMED <76896805+shanoorahmed@users.noreply.github.com>
+Date:   Mon Jan 3 00:41:26 2022 +0530
+
+    Initial commit
