@@ -64,4 +64,34 @@
     8) git help
              There are many commands in Git, and if you need more help with any command, you can use git help at any time from the terminal. 
 
-         Syntax: git help <git_command>   
+         Syntax: git help <git_command>
+
+    9) git revert 
+              The git revert command can be considered an 'undo' type command, however, it is not a traditional undo operation. Instead 
+              of removing the commit from the project history, it figures out how to invert the changes introduced by the commit and appends 
+              a new commit with the resulting inverse content. This prevents Git from losing history, which is important for the integrity of 
+              your revision history and for reliable collaboration
+
+         Syntax: git revert   
+       
+       Git Revert Options:
+
+            i) < commit>: The commit option is used to revert a commit. To revert a commit, we need the commit reference id. The git log command
+                          can access it.
+                Syntax:   git revert <commit-ish>  
+
+           ii) <--edit>: It is used to edit the commit message before reverting the commit. It is a default option in git revert command.
+                Syntax:   git revert -e <commit-ish>  
+        
+          iii) -m parent-number /--mainline parent-number: it is used to revert the merging. Generally, we cannot revert a merge because we do not
+                know which side of the merge should be considered as the mainline. We can specify the parent number and allows revert to reverse the
+                change relative to the specified parent.
+
+          iv)  -n/--no edit: This option will not open a text editor. It will directly revert the last commit.
+               Syntax:  git revert -n <commit-ish>  
+       
+          v)  --cleanup=<mode>: The cleanup option determines how to strip spaces and comments from the message.
+
+          vi)  -n/--no-commit: Generally, the revert command commits by default. The no-commit option will not automatically commit. In addition,
+                               if this option is used, your index does not have to match the HEAD commit. The no-commit option is beneficial for 
+                               reverting more than one commits effect to your index in a row9
