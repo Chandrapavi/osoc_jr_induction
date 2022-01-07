@@ -60,4 +60,8 @@
              directory by using this command. In case you want to deal with tracked files you need to use the Git reset command.
          
          Syntax: git clean
-        
+      
+    8) git whatchanged
+             This command does the same thing as git log but in a raw form.
+         Syntax: git whatchanged
+ 
