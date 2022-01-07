@@ -10,7 +10,7 @@
 
         Syntax: git stash
 
-    1) git remote -
+    2) git remote -
             The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like 
             bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they
             serve as convenient names that can be used to reference a not-so-convenient URL.The git remote command is also a convenience 
@@ -60,4 +60,8 @@
              directory by using this command. In case you want to deal with tracked files you need to use the Git reset command.
          
          Syntax: git clean
-        
+
+    8) git help
+             There are many commands in Git, and if you need more help with any command, you can use git help at any time from the terminal. 
+
+         Syntax: git help <git_command>   
