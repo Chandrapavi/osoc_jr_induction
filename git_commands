@@ -1,0 +1,63 @@
+                GIT COMMANDS
+    
+
+    1) git stash -
+            git stash temporarily shelves or stashes changes you've made to your working copy so you can work on something else, 
+	    and then come back and re-apply them later on. he git stash command takes your uncommitted changes both staged and unstaged, 
+            saves them away for later use, and then reverts them from your working copy. 
+            We can reapply previously stashed changes with git stash pop. Alternatively, you can reapply the changes to your working copy 
+            and keep them in your stash with git stash apply
+
+        Syntax: git stash
+
+    1) git remote -
+            The git remote command lets you create, view, and delete connections to other repositories. Remote connections are more like 
+            bookmarks rather than direct links into other repositories. Instead of providing real-time access to another repository, they
+            serve as convenient names that can be used to reference a not-so-convenient URL.The git remote command is also a convenience 
+            or 'helper' method for modifying a repo's ./.git/config file.
+
+        Syntax :
+
+        git remote ->  List the remote connections you have to other repositories.
+
+        git remote -v -> Same as the above command, but include the URL of each connection.
+
+        git remote add <name> <url> -> Create a new connection to a remote repository. After adding a remote, you’ll be able to use ＜name＞
+                                      as a convenient shortcut for ＜url＞ in other Git commands.
+
+        git remote rm <name> -> Remove the connection to the remote repository called ＜name＞.
+
+        git remote rename <old-name> <new-name> -> Rename a remote connection from ＜old-name＞ to ＜new-name＞.
+
+    3) git rebase -
+             Rebase is used to apply a sequence of commits from distinct 
+             branches into a final commit. It is an alternative of git merge command. In Git, the term rebase is referred to as the process 
+             of moving or combining a sequence of commits to a new base commit. 
+
+         Syntax:  git rebase <branch name> 
+
+    4) git verify-commit
+             The git verify-commit command will check the gpg signature. GPG or “GNU Privacy Guard” is the tool used in sign files and contains 
+             their signatures.
+
+         Syntax:  git verify-commit <commit>
+
+    5)  git verify-tag
+             you can confirm a tag.
+ 
+          Syntax: git  verify-tag <tag>
+
+    6) git diff
+             Most of the time, you need to compare two git files or branches before you commit or push. Here is a handy command to do that. 
+     
+        Syntax:
+              i) to compare the working directory with the local repo: git diff HEAD <filename>
+
+             ii) to compare two branches: git diff <source branch> <target branch>
+
+    7) git clean
+             You can deal with untracked files by using the Git clean command. You can remove all the untracked files from your working 
+             directory by using this command. In case you want to deal with tracked files you need to use the Git reset command.
+         
+         Syntax: git clean
+        
