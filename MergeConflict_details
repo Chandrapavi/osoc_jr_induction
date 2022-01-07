@@ -21,7 +21,7 @@
       so the git had a confusion about changes should be consideredand and thus merging failed.
 
 
-   RESOLVING MERGING CONFLICTS
+   RESOLVING MERGING CONFLICTS..
 
    1) Opened the git_commands text file using vim editor.
 
